@@ -22,8 +22,13 @@
     margin: 0%;
     padding:0%;
     box-sizing:border-box; 
+    text-decoration: none;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     cursor:none;
@@ -155,33 +160,104 @@ nav .links a:hover{
 /*----------End of navbar------------*/
 
 
-/*----------Start of Intro (hero)------------*/
-
-.hero {
-	position: relative;
-	margin-top: 80px;
-    display: block;
-	width: 100%;
-}
 
 /* -----------About Section-------*/
 
+.about {
+    height:100vh;
+	position: relative;
+	margin-left: 6%;
+    margin-right: 6%;
+
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+	width: 100%;
+}
+
+.header1{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family:'RoxboroughCF-Bold';
+    font-size: 4em;
+    padding-left: 10%;
+    color:#4D4E4F;
+}
+
+.header2{
+    padding-left: 10%;
+    font-family: 'Poppins';
+    color: #2e2e2e;
+}
+
+.about-desc {
+    font-family: 'Poppins';
+    padding-left: 10%;
+    padding-right: 40%;
+}
+
+.content {
+    height: 100vh;
+    background-color: #f4f4f4; 
+}
+
+
+span {
+    color:#308978;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cta {
+display: inline-block;
+margin-left: 10%;
+padding: 10px 30px;
+color: #2e2e2e;
+background-color: transparent;
+border: 2px solid #2e2e2e;
+font-size: 1rem;
+font-family: 'Poppins';
+text-transform: uppercase;
+letter-spacing: 0.1rem;
+margin-top: 30px;
+transition: 0.3s ease;
+transition-property: background-color, color;
+}
+.cta:hover {
+color: white;
+background-color: #308978;
+}   
+
+
+/*
 #about .about {
     
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
-        margin-top:80px;
-        margin-left: 6%;
+    margin-left: 6%;
 	padding: 0px 20px;
 }
+
+
 #about .col-left {
 	width: 250px;
 	height: 360px;
 }
+
 #about .col-right {
 	width: 100%;
+    text-align: justify;
+    height: 100vh;
+    margin-left:30%;
+    margin-bottom: 30%;
+    margin-top:0;
 }
+
 #about .col-right h2 {
     font-family: 'RoxboroughCF-Bold';
 	font-size: 1.8rem;
@@ -189,15 +265,25 @@ nav .links a:hover{
 	letter-spacing: 0.2rem;
 	margin-bottom: 10px;
 }
+
 #about .col-right p {
 	margin-bottom: 20px;
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
 }
+
 #about .col-right .cta {
 	color: black;
 	margin-bottom: 50px;
 	padding: 10px 20px;
 	font-size: 2rem;
+    text-decoration: none;
 }
+/*
 #about .col-left .about-img {
 	height: 100%;
 	width: 100%;
@@ -217,36 +303,11 @@ nav .links a:hover{
 
 .section-title {
     font-size: 4rem;
-}
+} */
     
- .img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-    }
-
-    .cta {
-        display: inline-block;
-        padding: 10px 30px;
-        color: white;
-        background-color: transparent;
-        border: 2px solid #2e2e2e;
-        font-size: 2rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1rem;
-        margin-top: 30px;
-        transition: 0.3s ease;
-        transition-property: background-color, color;
-    }
-    .cta:hover {
-        color: white;
-        background-color: #308978;
-    }   
+ 
 
 /* ----------End About Section------- */
-
-
-
 
 
 /*----------footer---------*/
@@ -254,7 +315,7 @@ nav .links a:hover{
 .footer-main-div {
     width: 100%;
     height: 30px;
-    margin: auto;
+    margin-left: 0;
     left:0%;
     bottom: 0%;
     position:absolute;
@@ -339,11 +400,10 @@ nav .links a:hover{
     margin-top: 15px;
 }
 
-
-
 /*----------footer end---------*/
 
 /*cursor*/
+
 .cursor {
     width: 25px;
     height: 25px;
@@ -358,4 +418,3 @@ nav .links a:hover{
     pointer-events: none;
     z-index: 2; 
     }
-   
