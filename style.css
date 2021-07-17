@@ -327,6 +327,16 @@ span {
     background-position: center;
 }
 
+.portfolio-container-4 {
+    display:absolute;
+    height: 51.31 rem;
+    width: 95.38;
+    margin:0;
+    background: #f4f4f4 url(images/half-moon-2white.svg);
+    background-repeat: none;
+    background-position: center;
+}
+
 .inner {
     padding-bottom: 50px;
     
@@ -361,6 +371,13 @@ span {
   .responsive3 {
     width: 100%;
     max-width: 650px;
+    height: auto;
+ 
+  }
+
+.responsive4 {
+    width: 100%;
+    max-width: 630px;
     height: auto;
  
   }
