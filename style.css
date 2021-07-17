@@ -1,7 +1,7 @@
 /*imported fonts*/
 
 @font-face {
-    src:url(fonts/RoxboroughCF-Bold.woff);
+    src:url(Fonts/RoxboroughCF-Bold.woff);
     font-family: RoxboroughCF;
 }
 h1 {font-family:'RoxboroughCF';}
@@ -181,7 +181,7 @@ nav .links a:hover{
 
 .aboutme {
     font-family: 'Poppins';
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding-left: 6%;
     color:#606163;
 }
