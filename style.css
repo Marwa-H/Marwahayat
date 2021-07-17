@@ -1,8 +1,8 @@
 /*imported fonts*/
 
 @font-face {
-    src:url(fonts/RoxboroughCF-Bold.otf);
-    font-family: RoxboroughCF-Bold;
+    src:url(fonts/RoxboroughCF-Bold.woff);
+    font-family: RoxboroughCF;
 }
   
 @font-face {
@@ -164,22 +164,23 @@ nav .links a:hover{
 	width: 100%;
 }
 
-.hello{
+.hello {
     padding-top: 10%;
     padding-bottom: 0%;
-    font-family:'RoxboroughCF';
+    font-family: 'RoxboroughCF';
     font-weight: bold;
     font-size: 4em;
     padding-left: 6%;
     color:#4D4E4F;
 }
+
 .content {
     height: 100vh;
     background-color: #f4f4f4; 
 }
 
 .catch {
-    font-family:'RoxboroughCF';
+    font-family: 'RoxboroughCF';
     font-weight: bold;
     font-size: 4em;
     padding-left: 6%;
@@ -259,7 +260,7 @@ span {
 }
 
 .subtitle {
-    font-family: 'RoxboroughCF';  
+    font-family: 'RoxboroughCF';
     font-weight: bold;
     font-size: 80px;
     color:#3F3B3D;
@@ -337,6 +338,7 @@ span {
     background-position: center;
 }
 
+
 .inner {
     padding-bottom: 50px;
     
@@ -375,7 +377,8 @@ span {
  
   }
 
-.responsive4 {
+  
+  .responsive4 {
     width: 100%;
     max-width: 630px;
     height: auto;
