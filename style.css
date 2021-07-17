@@ -4,16 +4,7 @@
     src:url(fonts/RoxboroughCF-Bold.woff);
     font-family: RoxboroughCF;
 }
-  
-@font-face {
-    src:url(fonts/RoxboroughCF-BoldItalic.otf);
-    font-family: RoxboroughCF-BoldItalic;
-}
-
-@font-face {
-    src:url(fonts/RoxboroughCF-Thin.otf);
-    font-family: RoxboroughCF-Thin;
-}
+h1 {font-family:RoxboroughCF;}
 
    /* decide which font weight  to upload */
 
